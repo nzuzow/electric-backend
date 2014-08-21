@@ -20,6 +20,5 @@
 	echo $email."<br/>";
 	echo $type."<br/>";
 	echo $message."<br/>";
-	echo "Hello World!";
 ?>
 </html>
