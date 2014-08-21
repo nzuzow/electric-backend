@@ -14,9 +14,11 @@
 <?php
 	$name = $_POST["contact-name"];
 	$email = $_POST['contact-email'];
+	$type = $_POST['contact-type-radio'];
 	$message = $_POST['contact-message'];
 	echo $name."<br/>";
 	echo $email."<br/>";
+	echo $type."<br/>";
 	echo $message."<br/>";
 	echo "Hello World!";
 ?>
